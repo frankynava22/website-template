@@ -1,0 +1,29 @@
+:root{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  --border-color: #edf2fb;
+  --title-color: #abc4ff;
+  --title-bottom-border-color: #b6ccfe;
+  --information-background-color: #edf2fb;
+  --information-box-shadow-color: #e2eafc;
+  --subheading-color: #778da9;
+  --link-color: #b6ccfe;
+  --project-content-color: var(--link-color);
+  --subheading-underline-color: #778da9;
+  --experience-position-color: #b6ccfe;
+  --navbar-background-color: #edf2fb;
+  --section-seperator-color: #e2eafc;
+  --styled-subheading-line-color: #c1d3fe;
+}
+
+.navbar-background {
+  background-color: var(--navbar-background-color);
+  box-shadow: 0px 5px 10px -5px var(--information-box-shadow-color); /* Adjust the values as needed */
+}
+
+.navbar-logo-color{
+  color: var(--title-color);
+}
